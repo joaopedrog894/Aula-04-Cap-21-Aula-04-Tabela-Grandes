@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
+    <style>
+     body {
+        font-family: Arial, Helvetica, sans-serif;
+     }  
+     table {
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+     } 
+     td,th {
+        border: 1px solid black;
+        padding: 10px;
+     }
+     thead, tfoot {
+        background-color: gray;
+        color: white;
+
+     }
+     thead > tr > th {
+        position: sticky;
+        top: 0;
+        background-color: gray;
+     }
+     td.num {
+        text-aling: right;
+     }
+     caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+     }
+     tbody > tr: nht-child(2n) {
+        background-color: gray;
+     }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <caption>População dos Estados Brasileiros - 2024</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px">População</th>
+                <th scope="balck">Comando HTML Utilizado</th>
+            </tr>
+        </thead>
+    </table>
 </body>
 </html>
