@@ -9,7 +9,7 @@
         font-family: Arial, Helvetica, sans-serif;
      }  
      table {
-        width: 500px;
+        width: 800px;
         border-collapse: collapse;
         position: relative;
      } 
@@ -25,10 +25,10 @@
      thead > tr > th {
         position: sticky;
         top: 0;
-        background-color: gray;
+        background-color: lightgray;
      }
      td.num {
-        text-aling: right;
+        text-align: right;
      }
      caption {
         font-size: 1.5em;
@@ -41,6 +41,14 @@
      }
      tr {
       color: black;
+     }
+     .mark {
+        background-color: yellow;
+     }
+     .alto {
+        height: 80px;
+        vertical-align: middle;
+        text-align: center;
      }
     </style>
 </head>
@@ -56,59 +64,59 @@
         </thead>
         <tbody>
          <tr>
-             <td>São Paulo</td>
-             <td class="num">45.973.190</td>
-             <td>Rio de Janeiro</td>
+             <td><strong>Acre</strong></td>
+             <td class="num"><span class="mark">830.018</span></td>
+             <td>'<strong>Negrito</strong>' e '<span class="mark">Destacado</span>'</td>
          </tr>
          <tr>
-             <td>Minas Gerais</td>
-             <td class="num">21.322.692</td>
-             <td>Rio de Janeiro</td>
+             <td><em>Alagoas</em></td>
+             <td class="num">3.365.351</td>
+             <td>'<em>Itálico</em>'</td>
          </tr>
          <tr>
-             <td>Rio de Janeiro</td>
-             <td class="num">17.219.679</td>
-             <td>Rio de Janeiro</td>
+             <td>Amapá</td>
+             <td class="num">877.613</td>
+             <td>Texto sublinhado</td>
+         </tr>
+         <tr>
+             <td>Amazonas</td>
+             <td class="num">4.269.995</td>
+             <td>Texto riscado e Texto sublinhado</td>
          </tr>
          <tr>
              <td>Bahia</td>
-             <td class="num">14 850 513</td>
-             <td>Rio de Janeiro</td>
+             <td class="num">14.141.626</td>
+             <td>Texto sobrescrito</td>
          </tr>
          <tr>
-             <td>Paraná</td>
-             <td class="num">11 824 665</td>
-             <td>Rio de Janeiro</td>
+             <td>CE</td>
+             <td class="num">9.240.580</td>
+             <td>'Abreviação'</td>
          </tr>
          <tr>
-             <td>Rio Grande do Sul</td>
-             <td class="num">11 229 915</td>
-             <td>Rio de Janeiro</td>
-         </tr>
-         <tr>
-            <td>São Paulo</td>
-            <td class="num">45.973.190</td>
-            <td>Rio de Janeiro</td>
+            <td><strong>Distrito Federal</strong></td>
+            <td class="num">3.098.883</td>
+            <td>'<strong>Texto em negrito</strong>'</td>
         </tr>
         <tr>
-            <td>Minas Gerais</td>
-            <td class="num">21.322.692</td>
-            <td>Rio de Janeiro</td>
+            <td>"Espirito Santo"</td>
+            <td class="num">4.108.508</td>
+            <td>'<q>Citação curta</q>'</td>
         </tr>
         <tr>
-            <td>Rio de Janeiro</td>
-            <td class="num">17.219.679</td>
-            <td>Rio de Janeiro</td>
+            <td><em>Goiás</em></td>
+            <td class="num">7.206.589</td>
+            <td>'<em>Citação de fonte</em>'</td>
         </tr>
         <tr>
-            <td>Bahia</td>
-            <td class="num">14 850 513</td>
-            <td>Rio de Janeiro</td>
+            <td><code>Maranhão</code></td>
+            <td class="num">6.775.805</td>
+            <td>'<code>Texto monoespaçado</code></td>
         </tr>
         <tr>
-            <td>Paraná</td>
-            <td class="num">11 824 665</td>
-            <td>Rio de Janeiro</td>
+            <td>Mato Grosso</td>
+            <td class="num">3.658.813</td>
+            <td>Texto pré-formatado</td>
         </tr>
         <tr>
             <td>Rio Grande do Sul</td>
